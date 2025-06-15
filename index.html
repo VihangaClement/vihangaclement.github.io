@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vihanga Adeepa | Software Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Vihanga Portfolio</h1>
+    <nav class="navbar">
+      <a href="index.html" class="active">Home</a>
+      <a href="projects.html">Projects</a>
+    </nav>
+
+    <section class="hero">
+      <h1>Vihanga Clement</h1>
+      <p>Website Developer • System Programmer • Student</p>
+    </section>
+
+    <section>
+      <div class="section-title">About Me</div>
+      <p class="fade" style="text-align:justify;">
+        I'm a 2010-born boy who likes to develop websites and systems. Since 2017, I have been a developer with experience in Python, web development, and systems programming. I enjoy crafting elegant solutions that balance simplicity and functionality.
+      </p>
+    </section>
+
+    <section>
+      <div class="section-title">Skills</div>
+      <div class="skill-cards fade">
+        <div class="skill-card">
+          <h3>Python</h3>
+          <p>Versatile scripting for web apps, automation, and data analysis.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Flask</h3>
+          <p>Lightweight framework for building secure and scalable APIs.</p>
+        </div>
+        <div class="skill-card">
+          <h3>System Programming</h3>
+          <p>Low-level coding with C/Python for efficient OS and driver work.</p>
+        </div>
+        <div class="skill-card">
+          <h3>HTML & CSS</h3>
+          <p>Clean, semantic layouts with responsive design principles.</p>
+        </div>
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <p>Enhancing interactivity and dynamic behavior in web interfaces.</p>
+        </div>
+      </div>
+    </section>
+    
+
+
+    <section>
+      <div class="section-title">Achievements & Certificates</div>
+      <ul class="fade">
+        <li>Python 3 Programming Specialization – University of Michigan</li>
+        <li>Introduction to Full Stack Development – Microsoft</li>
+        <li>Python Basics – University of Michigan</li>
+      </ul>
+    </section>
+    <section>
+      <div class="section-title">Certificate Gallery</div>
+      <div class="gallery">
+        <div class="certificate" onclick="openLightbox('assets/cert1.png')">
+          <img src="assets/cert1.png" alt="Certificate: Python 3 Programming Specialization – University of Michigan" loading="lazy">
+          <div class="caption">Python 3 Programming Specialization – University of Michigan</div>
+        </div>
+        <div class="certificate" onclick="openLightbox('assets/cert2.jpg')">
+          <img src="assets/cert2.jpg" alt="Certificate: Introduction Full Stack Development – Microsoft" loading="lazy">
+          <div class="caption">Introduction to Full Stack Development – Microsoft</div>
+        </div>
+        <div class="certificate" onclick="openLightbox('assets/cert3.jpg')">
+          <img src="assets/cert3.jpg" alt="Certificate: Python Basics – University of Michigan" loading="lazy">
+          <div class="caption">Python Basics – University of Michigan</div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="fade">
+      <a href="https://github.com/VihangaClement" class="btn" target="_blank">GitHub</a>
+      <a href="mailto:vihangaclement@outlook.com" class="btn">Email</a>
+      <a href="https://www.linkedin.com/in/vihangaclement/" class="btn">LinkedIn</a>
+      <p>© 2025 Vihanga Clement</p>
+    </footer>
+  </div>
+
+  <div id="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="Enlarged Certificate View">
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
